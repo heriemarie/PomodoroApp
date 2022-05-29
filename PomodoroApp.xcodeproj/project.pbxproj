@@ -13,6 +13,18 @@
 		5A0D1AC727FB2E7F0058D387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D1AB227FB2E7E0058D387 /* ContentView.swift */; };
 		5A0D1AC827FB2E7F0058D387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D1AB327FB2E7F0058D387 /* Assets.xcassets */; };
 		5A0D1AC927FB2E7F0058D387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D1AB327FB2E7F0058D387 /* Assets.xcassets */; };
+		5A0E1CD227FC0C860064C00E /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CD127FC0C860064C00E /* TimeBar.swift */; };
+		5A0E1CD327FC0C860064C00E /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CD127FC0C860064C00E /* TimeBar.swift */; };
+		5A0E1CDC27FC0F7C0064C00E /* TimeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CDB27FC0F7C0064C00E /* TimeButtons.swift */; };
+		5A0E1CDD27FC0F7C0064C00E /* TimeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CDB27FC0F7C0064C00E /* TimeButtons.swift */; };
+		5A0E1CE327FC243D0064C00E /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CE227FC243D0064C00E /* PomodoroModel.swift */; };
+		5A0E1CE427FC243D0064C00E /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E1CE227FC243D0064C00E /* PomodoroModel.swift */; };
+		5A3178E727FC48AA004DD3BC /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3178E627FC48AA004DD3BC /* TimeLabel.swift */; };
+		5A3178E827FC48AA004DD3BC /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3178E627FC48AA004DD3BC /* TimeLabel.swift */; };
+		5A4EB13727FF0270004DAEAF /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EB13627FF0270004DAEAF /* DarkMode.swift */; };
+		5A4EB13827FF0270004DAEAF /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EB13627FF0270004DAEAF /* DarkMode.swift */; };
+		5A6164DB27FDADAA00C28776 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6164DA27FDADAA00C28776 /* CustomModifier.swift */; };
+		5A6164DC27FDADAA00C28776 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6164DA27FDADAA00C28776 /* CustomModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,12 @@
 		5A0D1AC027FB2E7F0058D387 /* PomodoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0D1AC227FB2E7F0058D387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A0D1AC327FB2E7F0058D387 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5A0E1CD127FC0C860064C00E /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
+		5A0E1CDB27FC0F7C0064C00E /* TimeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButtons.swift; sourceTree = "<group>"; };
+		5A0E1CE227FC243D0064C00E /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		5A3178E627FC48AA004DD3BC /* TimeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
+		5A4EB13627FF0270004DAEAF /* DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
+		5A6164DA27FDADAA00C28776 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				5A0D1AB127FB2E7E0058D387 /* PomodoroAppApp.swift */,
-				5A0D1AB227FB2E7E0058D387 /* ContentView.swift */,
+				5A0E1CE927FC3F2F0064C00E /* Views */,
+				5A0E1CEE27FC3F400064C00E /* Models */,
 				5A0D1AB327FB2E7F0058D387 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +107,27 @@
 				5A0D1AC327FB2E7F0058D387 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		5A0E1CE927FC3F2F0064C00E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D1AB227FB2E7E0058D387 /* ContentView.swift */,
+				5A0E1CD127FC0C860064C00E /* TimeBar.swift */,
+				5A0E1CDB27FC0F7C0064C00E /* TimeButtons.swift */,
+				5A3178E627FC48AA004DD3BC /* TimeLabel.swift */,
+				5A6164DA27FDADAA00C28776 /* CustomModifier.swift */,
+				5A4EB13627FF0270004DAEAF /* DarkMode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0E1CEE27FC3F400064C00E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A0E1CE227FC243D0064C00E /* PomodoroModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4EB13727FF0270004DAEAF /* DarkMode.swift in Sources */,
+				5A0E1CE327FC243D0064C00E /* PomodoroModel.swift in Sources */,
+				5A6164DB27FDADAA00C28776 /* CustomModifier.swift in Sources */,
+				5A3178E727FC48AA004DD3BC /* TimeLabel.swift in Sources */,
+				5A0E1CDC27FC0F7C0064C00E /* TimeButtons.swift in Sources */,
+				5A0E1CD227FC0C860064C00E /* TimeBar.swift in Sources */,
 				5A0D1AC627FB2E7F0058D387 /* ContentView.swift in Sources */,
 				5A0D1AC427FB2E7F0058D387 /* PomodoroAppApp.swift in Sources */,
 			);
@@ -196,6 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4EB13827FF0270004DAEAF /* DarkMode.swift in Sources */,
+				5A0E1CE427FC243D0064C00E /* PomodoroModel.swift in Sources */,
+				5A6164DC27FDADAA00C28776 /* CustomModifier.swift in Sources */,
+				5A3178E827FC48AA004DD3BC /* TimeLabel.swift in Sources */,
+				5A0E1CDD27FC0F7C0064C00E /* TimeButtons.swift in Sources */,
+				5A0E1CD327FC0C860064C00E /* TimeBar.swift in Sources */,
 				5A0D1AC727FB2E7F0058D387 /* ContentView.swift in Sources */,
 				5A0D1AC527FB2E7F0058D387 /* PomodoroAppApp.swift in Sources */,
 			);

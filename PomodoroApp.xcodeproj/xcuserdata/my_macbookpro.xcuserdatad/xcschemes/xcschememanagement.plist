@@ -11,8 +11,23 @@
 		</dict>
 		<key>PomodoroApp (macOS).xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5A0D1AB727FB2E7F0058D387</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A0D1ABF27FB2E7F0058D387</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
